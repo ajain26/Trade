@@ -16,6 +16,9 @@ struct CashSummery {
 }
 
 class CashSummeryVC: UIViewController {
+    
+    @IBOutlet weak var searchBar: UISearchBar!
+    var searchActive : Bool = false
 
     @IBOutlet weak var tabelFundTransfer: UITableView!
     @IBOutlet weak var buttonFunnTransfer: UIButton!
@@ -34,7 +37,12 @@ class CashSummeryVC: UIViewController {
         buttonFunnTransfer.setTitle("Fund Transfer", for: .normal)
         // Do any additional setup after loading the view.
     }
-    
+    @IBAction func fundTransferClicked(){
+             let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+             // Instantiate View Controller
+             let viewController = storyboard.instantiateViewController(withIdentifier: "FundTransferVC") as! FundTransferVC
+            self.present(viewController, animated: true, completion: nil)
+         }
     /*
     // MARK: - Navigation
 
@@ -72,4 +80,23 @@ extension CashSummeryVC: UITableViewDataSource{
     }
     
     
+}
+extension CashSummeryVC : UISearchBarDelegate{
+
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+          searchActive = false
+          self.searchBar.endEditing(true)
+      }
+func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+    
+//    tabelFundTransfer.reloadData()
+//    if string.isEmpty {
+//               userList = userListOrignal
+//           }
+//           else {
+//               userList =  userListOrignal.filter({($0.username.lowercased().range(of: string.lowercased())) != nil ? true : false})
+//           }
+    
+}
+
 }

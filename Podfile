@@ -7,6 +7,8 @@ target 'Trade' do
 pod 'OktaAuth'
 pod 'Charts'
 pod 'SJSegmentedScrollView'
+pod 'MKRingProgressView'
+
 
   # Pods for Trade
 end

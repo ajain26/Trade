@@ -3,12 +3,14 @@ PODS:
   - Charts (3.4.0):
     - Charts/Core (= 3.4.0)
   - Charts/Core (3.4.0)
+  - MKRingProgressView (2.2.2)
   - OktaAuth (0.3.0):
     - AppAuth (~> 0.91.0)
   - SJSegmentedScrollView (1.5.0)
 
 DEPENDENCIES:
   - Charts
+  - MKRingProgressView
   - OktaAuth
   - SJSegmentedScrollView
 
@@ -16,15 +18,17 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AppAuth
     - Charts
+    - MKRingProgressView
     - OktaAuth
     - SJSegmentedScrollView
 
 SPEC CHECKSUMS:
   AppAuth: 3e0dc9c00ef333dc62064e4830aa89b597ae8d2f
   Charts: 74c9f256eaf0460c0c416522d1cf8c634ea6b286
+  MKRingProgressView: b558eff66a648bd77b11f61cfc5603ae96008077
   OktaAuth: 95067065bc8827b7f4821a77cd15062c438fb95b
   SJSegmentedScrollView: 67ca97389a9c3a409d3b54c88781f031f5091c61
 
-PODFILE CHECKSUM: 213d56ff01a8f45a0802d3fcc5bd46dea326c68f
+PODFILE CHECKSUM: 055926a77c47a97173dd76538972db5184d0ae8c
 
 COCOAPODS: 1.7.5

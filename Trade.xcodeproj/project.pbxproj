@@ -9,7 +9,24 @@
 /* Begin PBXBuildFile section */
 		0DAFE559D5F6AC8CF1613E5E /* Pods_Trade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BB9DFB03A5D269F97E3093 /* Pods_Trade.framework */; };
 		3D0292AD23BF7DD500425AE4 /* RegisterColorContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0292AC23BF7DD500425AE4 /* RegisterColorContoller.swift */; };
+		3D03909B23E59DD0002A675D /* IPortfolioDashBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D03909A23E59DD0002A675D /* IPortfolioDashBoardCell.swift */; };
+		3D03909E23E5AB66002A675D /* StockAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D03909D23E5AB66002A675D /* StockAccountVC.swift */; };
+		3D0390A023E5AC8A002A675D /* StockListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D03909F23E5AC8A002A675D /* StockListVC.swift */; };
+		3D0390A223E5AC9A002A675D /* StockActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0390A123E5AC9A002A675D /* StockActivityVC.swift */; };
+		3D0390A423E5B48B002A675D /* StockActivityListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0390A323E5B48B002A675D /* StockActivityListCell.swift */; };
+		3D0390A923E5CFC2002A675D /* CreatePortfolioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0390A823E5CFC2002A675D /* CreatePortfolioVC.swift */; };
+		3D0390AD23E5DC79002A675D /* TradeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0390AC23E5DC79002A675D /* TradeVC.swift */; };
+		3D0390B023E68352002A675D /* InitialsImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0390AF23E68352002A675D /* InitialsImageView.swift */; };
+		3D0390B323E83741002A675D /* BuyPortfolioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0390B223E83741002A675D /* BuyPortfolioVC.swift */; };
+		3D0390B623E84D33002A675D /* BuyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0390B523E84D33002A675D /* BuyTableViewCell.swift */; };
+		3D201ED423E0255700AF9D9D /* IPortfolioAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D201ED323E0255700AF9D9D /* IPortfolioAccountVC.swift */; };
 		3D3412DB23D09ADF00CF82EF /* SegmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3412DA23D09ADF00CF82EF /* SegmentCell.swift */; };
+		3D35EFA223D7334B00E00803 /* DropDownPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35EFA123D7334B00E00803 /* DropDownPickerView.swift */; };
+		3D35EFA523D7393C00E00803 /* FundTransferVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35EFA423D7393C00E00803 /* FundTransferVC.swift */; };
+		3D5133ED23E3133B0008AE94 /* PortFolioServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5133EC23E3133B0008AE94 /* PortFolioServiceCell.swift */; };
+		3D5133EF23E313940008AE94 /* SensexPriceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5133EE23E313940008AE94 /* SensexPriceCell.swift */; };
+		3D58572F23D30023009E3347 /* BankAccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D58572E23D30023009E3347 /* BankAccountCell.swift */; };
+		3D58573123D68C74009E3347 /* AddNewBankVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D58573023D68C74009E3347 /* AddNewBankVC.swift */; };
 		3D5D91C523CA03D600474099 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D91C423CA03D600474099 /* LoginVC.swift */; };
 		3D5D91C723CA043F00474099 /* LoginColorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D91C623CA043F00474099 /* LoginColorControl.swift */; };
 		3D8784EC23CA2EF2007CEC5F /* Oktaplist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D8784EB23CA2EF2007CEC5F /* Oktaplist.plist */; };
@@ -39,7 +56,24 @@
 
 /* Begin PBXFileReference section */
 		3D0292AC23BF7DD500425AE4 /* RegisterColorContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterColorContoller.swift; sourceTree = "<group>"; };
+		3D03909A23E59DD0002A675D /* IPortfolioDashBoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPortfolioDashBoardCell.swift; sourceTree = "<group>"; };
+		3D03909D23E5AB66002A675D /* StockAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockAccountVC.swift; sourceTree = "<group>"; };
+		3D03909F23E5AC8A002A675D /* StockListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListVC.swift; sourceTree = "<group>"; };
+		3D0390A123E5AC9A002A675D /* StockActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockActivityVC.swift; sourceTree = "<group>"; };
+		3D0390A323E5B48B002A675D /* StockActivityListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockActivityListCell.swift; sourceTree = "<group>"; };
+		3D0390A823E5CFC2002A675D /* CreatePortfolioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePortfolioVC.swift; sourceTree = "<group>"; };
+		3D0390AC23E5DC79002A675D /* TradeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeVC.swift; sourceTree = "<group>"; };
+		3D0390AF23E68352002A675D /* InitialsImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialsImageView.swift; sourceTree = "<group>"; };
+		3D0390B223E83741002A675D /* BuyPortfolioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyPortfolioVC.swift; sourceTree = "<group>"; };
+		3D0390B523E84D33002A675D /* BuyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyTableViewCell.swift; sourceTree = "<group>"; };
+		3D201ED323E0255700AF9D9D /* IPortfolioAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPortfolioAccountVC.swift; sourceTree = "<group>"; };
 		3D3412DA23D09ADF00CF82EF /* SegmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentCell.swift; sourceTree = "<group>"; };
+		3D35EFA123D7334B00E00803 /* DropDownPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownPickerView.swift; sourceTree = "<group>"; };
+		3D35EFA423D7393C00E00803 /* FundTransferVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundTransferVC.swift; sourceTree = "<group>"; };
+		3D5133EC23E3133B0008AE94 /* PortFolioServiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortFolioServiceCell.swift; sourceTree = "<group>"; };
+		3D5133EE23E313940008AE94 /* SensexPriceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensexPriceCell.swift; sourceTree = "<group>"; };
+		3D58572E23D30023009E3347 /* BankAccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountCell.swift; sourceTree = "<group>"; };
+		3D58573023D68C74009E3347 /* AddNewBankVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBankVC.swift; sourceTree = "<group>"; };
 		3D5D91C423CA03D600474099 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		3D5D91C623CA043F00474099 /* LoginColorControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginColorControl.swift; sourceTree = "<group>"; };
 		3D8784EB23CA2EF2007CEC5F /* Oktaplist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Oktaplist.plist; sourceTree = "<group>"; };
@@ -93,6 +127,70 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		3D03909C23E5AB3B002A675D /* StockAccount */ = {
+			isa = PBXGroup;
+			children = (
+				3D03909D23E5AB66002A675D /* StockAccountVC.swift */,
+				3D03909F23E5AC8A002A675D /* StockListVC.swift */,
+				3D0390A123E5AC9A002A675D /* StockActivityVC.swift */,
+				3D0390A323E5B48B002A675D /* StockActivityListCell.swift */,
+			);
+			path = StockAccount;
+			sourceTree = "<group>";
+		};
+		3D0390AA23E5CFCA002A675D /* CreatePortfolio */ = {
+			isa = PBXGroup;
+			children = (
+				3D0390A823E5CFC2002A675D /* CreatePortfolioVC.swift */,
+			);
+			path = CreatePortfolio;
+			sourceTree = "<group>";
+		};
+		3D0390AB23E5DB5D002A675D /* TradeVC */ = {
+			isa = PBXGroup;
+			children = (
+				3D0390AC23E5DC79002A675D /* TradeVC.swift */,
+			);
+			path = TradeVC;
+			sourceTree = "<group>";
+		};
+		3D0390AE23E68347002A675D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				3D0390AF23E68352002A675D /* InitialsImageView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		3D0390B123E8368C002A675D /* BuyPortfolio */ = {
+			isa = PBXGroup;
+			children = (
+				3D0390B423E84CB7002A675D /* BuyCell */,
+				3D0390B223E83741002A675D /* BuyPortfolioVC.swift */,
+			);
+			path = BuyPortfolio;
+			sourceTree = "<group>";
+		};
+		3D0390B423E84CB7002A675D /* BuyCell */ = {
+			isa = PBXGroup;
+			children = (
+				3D0390B523E84D33002A675D /* BuyTableViewCell.swift */,
+			);
+			path = BuyCell;
+			sourceTree = "<group>";
+		};
+		3D201ED223E0252600AF9D9D /* iPortfolioAccount */ = {
+			isa = PBXGroup;
+			children = (
+				3D0390B123E8368C002A675D /* BuyPortfolio */,
+				3D0390AB23E5DB5D002A675D /* TradeVC */,
+				3D0390AA23E5CFCA002A675D /* CreatePortfolio */,
+				3D5133EB23E3130E0008AE94 /* PortFolioCell */,
+				3D201ED323E0255700AF9D9D /* IPortfolioAccountVC.swift */,
+			);
+			path = iPortfolioAccount;
+			sourceTree = "<group>";
+		};
 		3D3412D923D09AA600CF82EF /* SegmentCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +199,37 @@
 			path = SegmentCell;
 			sourceTree = "<group>";
 		};
+		3D35EFA323D7392300E00803 /* FundTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				3D35EFA423D7393C00E00803 /* FundTransferVC.swift */,
+			);
+			path = FundTransfer;
+			sourceTree = "<group>";
+		};
+		3D5133EB23E3130E0008AE94 /* PortFolioCell */ = {
+			isa = PBXGroup;
+			children = (
+				3D5133EC23E3133B0008AE94 /* PortFolioServiceCell.swift */,
+				3D5133EE23E313940008AE94 /* SensexPriceCell.swift */,
+				3D03909A23E59DD0002A675D /* IPortfolioDashBoardCell.swift */,
+			);
+			path = PortFolioCell;
+			sourceTree = "<group>";
+		};
+		3D58572D23D30007009E3347 /* BankAccountCell */ = {
+			isa = PBXGroup;
+			children = (
+				3D58572E23D30023009E3347 /* BankAccountCell.swift */,
+			);
+			path = BankAccountCell;
+			sourceTree = "<group>";
+		};
 		3D8CCC5C23C7967200430FDB /* DashBoard */ = {
 			isa = PBXGroup;
 			children = (
+				3D03909C23E5AB3B002A675D /* StockAccount */,
+				3D201ED223E0252600AF9D9D /* iPortfolioAccount */,
 				3DF2D2B423CA3C2F004021FF /* CahsAccount */,
 				3D8CCC7323C8BC2300430FDB /* DashBoardCell */,
 				3D8CCC5D23C796A300430FDB /* DashBoardVC.swift */,
@@ -155,6 +281,7 @@
 		3D8CCC7623C8FAE700430FDB /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				3D35EFA123D7334B00E00803 /* DropDownPickerView.swift */,
 				3D8CCC7723C8FB1F00430FDB /* CustomSegmentControl.swift */,
 			);
 			path = CustomViews;
@@ -181,6 +308,7 @@
 		3D95108323BDA99C003BBA5D /* Trade */ = {
 			isa = PBXGroup;
 			children = (
+				3D0390AE23E68347002A675D /* Component */,
 				3D95109823BDACEC003BBA5D /* Controller */,
 				3D95108423BDA99C003BBA5D /* AppDelegate.swift */,
 				3D95108623BDA99C003BBA5D /* SceneDelegate.swift */,
@@ -241,11 +369,14 @@
 		3DF2D2B423CA3C2F004021FF /* CahsAccount */ = {
 			isa = PBXGroup;
 			children = (
+				3D35EFA323D7392300E00803 /* FundTransfer */,
+				3D58572D23D30007009E3347 /* BankAccountCell */,
 				3D3412D923D09AA600CF82EF /* SegmentCell */,
 				3DF2D2BB23CA4C44004021FF /* CashSummeryCell */,
 				3DF2D2B523CA3C43004021FF /* CashVC.swift */,
 				3DF2D2B723CA3ED0004021FF /* CashSummeryVC.swift */,
 				3DF2D2B923CA3EEC004021FF /* CashBankAccountVC.swift */,
+				3D58573023D68C74009E3347 /* AddNewBankVC.swift */,
 			);
 			path = CahsAccount;
 			sourceTree = "<group>";
@@ -388,25 +519,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D8CCC6B23C798B700430FDB /* SettingsVC.swift in Sources */,
+				3D0390B623E84D33002A675D /* BuyTableViewCell.swift in Sources */,
 				3DF2D2BD23CA4C5E004021FF /* CashSumeryCell.swift in Sources */,
+				3D35EFA523D7393C00E00803 /* FundTransferVC.swift in Sources */,
 				3D5D91C723CA043F00474099 /* LoginColorControl.swift in Sources */,
 				3D8CCC6823C7987E00430FDB /* WatchListVC.swift in Sources */,
+				3D0390A023E5AC8A002A675D /* StockListVC.swift in Sources */,
 				3DA2768C23C2F4230081A9A8 /* ExtesnsionView.swift in Sources */,
 				3D8CCC7023C7997400430FDB /* TabbbarVC.swift in Sources */,
+				3D0390B023E68352002A675D /* InitialsImageView.swift in Sources */,
 				3D5D91C523CA03D600474099 /* LoginVC.swift in Sources */,
+				3D5133ED23E3133B0008AE94 /* PortFolioServiceCell.swift in Sources */,
+				3D201ED423E0255700AF9D9D /* IPortfolioAccountVC.swift in Sources */,
+				3D58572F23D30023009E3347 /* BankAccountCell.swift in Sources */,
 				3D8CCC7823C8FB1F00430FDB /* CustomSegmentControl.swift in Sources */,
 				3D0292AD23BF7DD500425AE4 /* RegisterColorContoller.swift in Sources */,
 				3DF2D2B623CA3C43004021FF /* CashVC.swift in Sources */,
+				3D0390A923E5CFC2002A675D /* CreatePortfolioVC.swift in Sources */,
 				3D8CCC5E23C796A300430FDB /* DashBoardVC.swift in Sources */,
 				3D95108923BDA99C003BBA5D /* ViewController.swift in Sources */,
+				3D58573123D68C74009E3347 /* AddNewBankVC.swift in Sources */,
 				3D9510C023BE3084003BBA5D /* ThemeSelectorVC.swift in Sources */,
+				3D35EFA223D7334B00E00803 /* DropDownPickerView.swift in Sources */,
+				3D5133EF23E313940008AE94 /* SensexPriceCell.swift in Sources */,
 				3D8CCC7523C8BCBB00430FDB /* DashBoardCell.swift in Sources */,
+				3D0390B323E83741002A675D /* BuyPortfolioVC.swift in Sources */,
 				3DF2D2BA23CA3EEC004021FF /* CashBankAccountVC.swift in Sources */,
 				3D95108523BDA99C003BBA5D /* AppDelegate.swift in Sources */,
+				3D03909B23E59DD0002A675D /* IPortfolioDashBoardCell.swift in Sources */,
 				3D8CCC6123C797F200430FDB /* SearchVC.swift in Sources */,
 				3D95108723BDA99C003BBA5D /* SceneDelegate.swift in Sources */,
+				3D0390A423E5B48B002A675D /* StockActivityListCell.swift in Sources */,
 				3DF2D2B823CA3ED0004021FF /* CashSummeryVC.swift in Sources */,
+				3D03909E23E5AB66002A675D /* StockAccountVC.swift in Sources */,
+				3D0390A223E5AC9A002A675D /* StockActivityVC.swift in Sources */,
 				3D3412DB23D09ADF00CF82EF /* SegmentCell.swift in Sources */,
+				3D0390AD23E5DC79002A675D /* TradeVC.swift in Sources */,
 				3D9510C323BE33D5003BBA5D /* RegisterVC.swift in Sources */,
 				3DA2768E23C36FAA0081A9A8 /* ExtesnionsUIColor.swift in Sources */,
 			);

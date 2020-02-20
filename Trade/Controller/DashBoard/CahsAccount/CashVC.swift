@@ -21,29 +21,24 @@ class CashVC: UIViewController {
     private lazy var summaryViewController: CashSummeryVC = {
         // Load Storyboard
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-
         // Instantiate View Controller
         var viewController = storyboard.instantiateViewController(withIdentifier: "CashSummeryVC") as! CashSummeryVC
-
         // Add View Controller as Child View Controller
         self.add(asChildViewController: viewController)
-
         return viewController
     }()
     
     private lazy var sessionsViewController: CashBankAccountVC = {
         // Load Storyboard
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-
         // Instantiate View Controller
         var viewController = storyboard.instantiateViewController(withIdentifier: "CashBankAccountVC") as! CashBankAccountVC
-
         // Add View Controller as Child View Controller
         self.add(asChildViewController: viewController)
-
         return viewController
     }()
-    override func viewDidLoad() {
+    
+    override func viewDidLoad(){
         super.viewDidLoad()
         collectionViewSegment.delegate = self
         collectionViewSegment.dataSource = self
@@ -53,35 +48,27 @@ class CashVC: UIViewController {
     private func add(asChildViewController viewController: UIViewController) {
         // Add Child View Controller
         addChild(viewController)
-        
         // Add Child View as Subview
         containerView.addSubview(viewController.view)
-        
         // Configure Child View
         viewController.view.frame = view.bounds
         viewController.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        
         // Notify Child View Controller
         viewController.didMove(toParent: self)
     }
     
     private func removeChild() {
         // Notify Child View Controller
-        
         for obj in self.children {
             obj.willMove(toParent: nil)
-            
             // Remove Child View From Superview
             obj.view.removeFromSuperview()
-            
             // Notify Child View Controller
             obj.removeFromParent()
         }
-        
     }
     /*
     // MARK: - Navigation
-
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
@@ -98,7 +85,6 @@ extension CashVC: UICollectionViewDelegate {
         cashSummeryModelArray[indexPath.row].isSelected = true
         self.collectionViewSegment.reloadData()
         removeChild()
-
         switch indexPath.row {
         case 0:
             self.add(asChildViewController: summaryViewController)

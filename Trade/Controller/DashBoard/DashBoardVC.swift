@@ -52,7 +52,7 @@ class DashBoardVC: UIViewController {
         self.segmentControl.layer.borderWidth = 0.1;
         segmentControl.layer.borderColor = segmentGrayColor.cgColor
         self.segmentControl.layer.masksToBounds = true;
-        setChart(values: [34.0,43.0,56.0,23.0,56.0,68.0,48.0,120.0,41.0])
+        setChart(values: [10000,50000,80000,10000,56000.0,68000.0,48000.0,120.0,41000.0,50000,35664,33223])
 
         // Do any additional setup after loading the view.
     }
@@ -93,12 +93,28 @@ class DashBoardVC: UIViewController {
         mChart.rightAxis.drawGridLinesEnabled = false
         mChart.legend.enabled = false
         mChart.xAxis.enabled = true
+        
+        mChart.xAxis.valueFormatter = IndexAxisValueFormatter(values: ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"])
+        mChart.xAxis.granularity = 1
+        mChart.xAxis.labelCount = 12
+    
+        let formatter = NumberFormatter()
+        formatter.positiveFormat = "0K"
+        formatter.multiplier = 0.001
+        mChart.leftAxis.valueFormatter = DefaultAxisValueFormatter.init(formatter: formatter)
+        mChart.leftAxis.granularityEnabled = true
+        mChart.leftAxis.granularity = 1
+        mChart.leftAxis.labelCount = 4
+        mChart.leftAxis.axisMinimum = 0
+        mChart.leftAxis.forceLabelsEnabled = true
+        
         mChart.xAxis.labelTextColor = UIColor.white
         mChart.leftAxis.labelTextColor = UIColor.white
         mChart.leftAxis.enabled = true
         mChart.rightAxis.enabled = false
         mChart.xAxis.labelPosition = XAxis.LabelPosition.bottom
         mChart.xAxis.drawLabelsEnabled = true
+        mChart.leftAxis.drawLabelsEnabled = true
         line1.drawValuesEnabled = false
     
 
@@ -134,6 +150,7 @@ extension DashBoardVC: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "DashBoardCellID", for: indexPath) as! DashBoardCell
+        cell.selectionStyle = .none
         cell.titleAccount?.text = dashBoardArray[indexPath.row].title
         cell.accountImage?.image = UIImage(named: dashBoardArray[indexPath.row].imgName)
         cell.pointTitle.text = dashBoardArray[indexPath.row].point
@@ -144,6 +161,17 @@ extension DashBoardVC: UITableViewDataSource {
 }
 
 extension DashBoardVC: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 1 {
+            navigateToiPortfolio()
+        }
+      else  if indexPath.row == 2 {
+            navigateToStockAccount()
+        }
+        
+        
+    }
     
 }
 
@@ -166,3 +194,15 @@ extension DashBoardVC: UIScrollViewDelegate {
 }
 
 
+extension DashBoardVC {
+    func navigateToiPortfolio(){
+        let iPortfolioVC = self.storyboard?.instantiateViewController(identifier: "IPortfolioAccountVC") as! IPortfolioAccountVC
+        self.navigationController?.pushViewController(iPortfolioVC, animated: false)
+    }
+    
+    func navigateToStockAccount(){
+        let iPortfolioVC = self.storyboard?.instantiateViewController(identifier: "StockAccountVC") as! StockAccountVC
+        self.navigationController?.pushViewController(iPortfolioVC, animated: false)
+    }
+
+}
